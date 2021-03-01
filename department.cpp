@@ -14,7 +14,7 @@ struct Employees{
     string department;
 
 };
-
+/*The following employees are fictional*/
 Employees employee_1{"George", "Rogers", 1254325, "IT"};
 Employees employee_2{"Matthew", "Clarke", 2354268, "HR"};
 Employees employee_3{"Sarah", "Medows", 6521538, "Development"};
