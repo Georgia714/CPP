@@ -1,3 +1,11 @@
+#include <iostream>
+#include <string>
+#include <typeinfo>
+using namespace std;
+
+/*This program asks the user to enter a number between 1 and 9. If the number is invalid, the program asks the user to enter a valid number. Once the user
+has entered a valid number, the program checks if it is the array of numbers (it nums[]). If it is, the program returns the index of that number in the array.*/
+
 void numListChecker() {
     int nums[] {4,6,7,3,8,2,1,5,9};
     const int lengthNums{sizeof(nums)/sizeof(nums[0])}; 
@@ -22,3 +30,8 @@ void numListChecker() {
     }
 }
 
+int main() {
+
+    numListChecker();
+    return 0;
+}
