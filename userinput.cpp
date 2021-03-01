@@ -1,6 +1,8 @@
 #include <iostream>
 
 
+/*This program asks the user to input two numbers and returns their sum*/
+
 int getValueFromUser() {
     
     std::cout << "Enter an integer: ";
@@ -10,8 +12,6 @@ int getValueFromUser() {
     return input;
 
 }
-
-//Task instruction: Only input from a user is allowed, you can’t assign values to variables.
 
 int main() {
 
