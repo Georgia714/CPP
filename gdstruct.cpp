@@ -26,7 +26,7 @@ Employees employee_8{"Riona", "Ablah", 7953134, "IT"};
 
 void department_searcher() {
 
-    /*creates a list to iterate through the employees created with the Employee struct, check if the employee exists, 
+    /*creates an array to iterate through the employees created with the Employee struct, check if the employee exists, 
     and if true return the employee's name and department based on the ID number entered by the user.*/
     Employees employeeRecord[] {employee_1, employee_2, employee_3, employee_4, employee_5, employee_6, employee_7, employee_8};
     const int numEmployees{sizeof(employeeRecord)/sizeof(employeeRecord[0])};
