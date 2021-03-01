@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-
+//This program creates a file that contains a username and password. It then checks the username and password supplied to log into the file.
 
 string username, password, un, pw;
 
