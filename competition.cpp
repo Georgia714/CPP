@@ -1,7 +1,14 @@
 #include <iostream>
 #include <string>
 
-//competition winners exercise slide37
+/*This program was created for a fictional company that runs competitions. The task was to create a function to enable the company
+to enter data (name and score) for the three finalists in a competition (first place, second place and third place). The n range is between 0 and 1000.
+If a finalist scores between 900 and 1000, they are the winner; if their score is between 800 and 900, they are second place; and if their score is between
+700 and 800, they are third place. The program uses a while loop which runs until three finalists and three valid scores have been entered; if the user enters a score that 
+is under 700 or above 1000, the program throws up an error message and they are asked to re-enter a valid score. Once the conditions of the while loop are met,
+the program outputs the name of each of the finalists and their score, in order of first place, second place, third place */
+
+
 void competition_winners() {
     int count = 0;
     std::string name, winner1, winner2, winner3;
@@ -40,48 +47,8 @@ void competition_winners() {
 }
 
 
-
-
-//slide38 no.1 print the sum of all odd numbers 0-30
-void odd_sum_30() {
-    int total_sum_odd;
-    for (int i = 0; i<=30; i++) {
-        if (i % 2 != 0) {
-            total_sum_odd += i;
-        }
-    }
-    std::cout << "The total sum of all the odd numbers between 0 and 30 is: " << total_sum_odd << "\n";
-}
-
-//slide38 no.2 multiple each even number 0-30 by three
-void even_times_three30() {
-    for (int i = 0; i < 30; i++) {
-        if (i % 2 == 0) {
-            std::cout << i*3 << " ";
-        }
-    }
-}
-
-//slide38 no.3
-void count_to_ten() {
-    int count = 0;
-    while (count < 9) {
-        count++;
-        if (count == 5) {
-            std::cout << "The number is: " << count << ". We are halfway through.\n";
-        }
-        else {
-        std::cout << "The number is: " << count << "\n";
-        }
-    }
-    std::cout << "This is the end of the program.\n";
-}
-
 int main() {
-
-    //odd_sum_30();
-    //even_times_three30();
-    //count_to_ten();
+    
     competition_winners();
 
 return 0;
